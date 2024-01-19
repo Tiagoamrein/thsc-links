@@ -88,6 +88,11 @@ background: #4A4949;
   color:#3A5EDD;
  }
 
+@media (min-width:400px){
+
+}
+
+
  @media (min-width:760px) {
   .button{
     width: 440px;
