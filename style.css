@@ -11,7 +11,7 @@ body{
   background-size: cover; 
   display: flex;
   flex-direction: column;
-  
+  min-height: 100vh;
   
 }
 
@@ -22,16 +22,21 @@ main{
   flex-direction: column;
   align-items: center;
   margin-top: 30px;
-  h2{
+  
+
+}
+
+
+main  img{
+  width:140px;
+  border-radius: 90%;
+}
+
+main h2{
     font-size: 16px;
     font-weight:600;
-    color:#ffff;
+    color:white;
   }
-  img{
-    width:140px;
-    border-radius: 90%;
-  }
-}
 .name{
   display: flex;
   
