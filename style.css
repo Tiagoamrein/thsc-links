@@ -15,7 +15,7 @@ body{
   
 }
 
-main{
+.content{
   display: flex;
   flex: 1;
   justify-items: center;
@@ -25,7 +25,7 @@ main{
   h2{
     font-size: 16px;
     font-weight:600;
-    color:#fff;
+    color:#ffff;
   }
   img{
     width:140px;
